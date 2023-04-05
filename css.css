@@ -1,0 +1,48 @@
+body{
+    background-color: pink;
+}
+
+
+form{
+    margin: 20px 0;
+}
+td, th{
+    border: 1px solid white;
+    padding: 8px 15px;
+  }
+  table{
+    margin: 20px 0;
+  }
+  form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+  }
+  fieldset{
+
+    margin: 20px 0; 
+  }
+  label{
+    display: block;
+    margin: 10px 0;
+  }
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: rgb(255, 0, 191);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+  }
+  
+.enviar:hover{
+    background: palevioletred;
+    transform:scale(1.2);
+}
+.creditos{
+    margin: 50px 0;
+}
